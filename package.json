@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "(set NODE_ENV=dev && jest --runInBand || true) && node updateReport.js"
+  },
+  "keywords": [
+    "Unit Testing",
+    "Puppeteer",
+    "jest",
+    "jest-html-reporters",
+    "jest-puppeteer",
+    "puppeteer",
+    "Javascript Unit Testing"
+  ],
+  "author": "Rahul Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.2",
+    "jest-html-reporters": "^2.0.3",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.2.1"
+  }
+}
